@@ -27,6 +27,9 @@ struct ContentView: View {
             Spacer()
             
             Text("Student Info")
+                .font(.largeTitle)
+            
+            Spacer()
             
             Image("id")
                 .resizable()
